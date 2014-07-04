@@ -8,6 +8,10 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+.entry-title a:hover {
+  color: inherit;
+}
+
 #content blockquote {
    border-left: 3px solid #000;
 }
