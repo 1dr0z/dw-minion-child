@@ -35,6 +35,16 @@ function extend_customizer( $wp_customize ) {
      'section'    => 'dw_minion_social_links',
      'settings'   => 'dw_minion_theme_options[bitbucket]',
    ));
+   $wp_customize->add_setting('dw_minion_theme_options[fictionpress]', array(
+     'default'        => '',
+     'capability'     => 'edit_theme_options',
+     'type'           => 'option',
+   ));
+   $wp_customize->add_control('fictionpress', array(
+     'label'      => __('Fiction Press', 'dw-minion'),
+     'section'    => 'dw_minion_social_links',
+     'settings'   => 'dw_minion_theme_options[fictionpress]',
+   ));
 
 }
 
